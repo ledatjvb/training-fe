@@ -1,0 +1,402 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+
+body {
+    width: 1440px;
+    margin: auto;
+}
+
+.container {
+    margin: 200px 165px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.navbar nav {
+    width: 300px;
+}
+
+nav a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #505F98;
+    padding-right: 25px;
+    text-decoration: none;
+}
+
+.navbar .logo {
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 38px;
+    color: #37447E;
+}
+
+.navbar .buy {
+    width: 300px;
+}
+
+.navbar .buy button {
+    float: right;
+    width: 160px;
+
+    background: #111B47;
+    border-radius: 2px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.hero {
+    background-image: url('../img/designer_1.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    width: auto;
+    height: 1161px;
+}
+
+.hero-content {
+    margin: 0 165px;
+}
+
+.hero .content {
+    width: 539.37px;
+    height: 421px;
+    margin: 250px 0;
+}
+
+.hero .content .title {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 66px;
+    letter-spacing: 1px;
+    color: #091133;
+}
+
+.hero .content .body {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #505F98;
+    margin-top: 20px;
+}
+
+.hero .content .button {
+    margin-top: 50px;
+}
+
+.hero .content .button .btn-purchase {
+    background: #111B47;
+    border-radius: 2px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 189.13px;
+}
+
+.hero .content .button .btn-learn-more {
+    box-sizing: border-box;
+    border: 2px solid #091133;
+    border-radius: 2px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #091133;
+    width: 189.13px;
+    margin-left: 15px;
+    background-color: #FFFFFF;
+}
+
+.section-1 {
+    display: flex;
+    margin: 50px 165px;
+}
+
+.section-1 .text-top .title {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    color: #091133;
+}
+
+.section-1 .text-top .body {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6F7CB2;
+    margin-top: 20px;
+}
+
+.section-1 .content-left {
+    margin-top: 70px;
+}
+
+.section-1 .content-left .card {
+    display: flex;
+    margin-top: 60px;
+    margin-right: 40px;
+}
+
+.section-1 .content-left .card .title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #091133;
+    margin-top: 10px;
+}
+
+.section-1 .content-left .card .body {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #5D6970;
+}
+
+.section-2 {
+    display: flex;
+    margin: 150px 165px;
+}
+
+.section-2 .content-left {
+    width: 50%;
+}
+
+.section-2 .content-right {
+    width: 50%;
+    margin-top: 50px;
+}
+
+.section-2 .content-right .title {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    color: #091133;
+}
+
+.section-2 .content-right .body {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6F7CB2;
+}
+
+.section-3 {
+    display: flex;
+    margin: 150px 165px;
+}
+
+.section-3 .content-left {
+    width: 50%;
+}
+
+.section-3 .content-right {
+    width: 50%;
+    margin-top: 70px;
+}
+
+.section-3 .content-right .title {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    color: #091133;
+}
+
+.section-3 .content-right .body {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6F7CB2;
+}
+
+.section-4 {
+    display: flex;
+    margin: 150px 165px;
+}
+
+.section-4 .content-left {
+    width: 50%;
+}
+
+.section-4 .content-right {
+    width: 50%;
+    margin-top: 15px;
+}
+
+.section-4 .content-right .title {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    color: #091133;
+}
+
+.section-4 .content-right .body {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6F7CB2;
+}
+
+.section-4 .content-right button {
+    background: #111B47;
+    border-radius: 2px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 152px;
+    margin-top: 25px;
+}
+
+.section-pricing {
+    background-image: url('../img/Rectangle.png');
+    height: 800px;
+}
+
+.section-pricing .content {
+    text-align: center;
+    padding-top: 250px;
+}
+
+.section-pricing .content .text-block .title {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    color: #091133;
+}
+
+.section-pricing .content .text-block .body {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #6F7CB2;
+    width: 600px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.section-pricing .content .price {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 66px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #222F65;
+    margin-top: 25px;
+}
+
+.section-pricing .content .title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #37447E;
+}
+
+.section-pricing .content .body {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #5D6970;
+    margin-top: 45px;
+}
+
+.section-pricing .content button {
+    background: #111B47;
+    border-radius: 2px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 189px;
+    margin-top: 5px;
+}
+
+footer {
+    background-color: #E7ECFF;
+    height: 216px;
+}
+
+footer .container {
+    margin: 0 165px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px #CDD1D4;
+    padding: 55px 0;
+}
+
+.footer-top .company {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #939EA4;
+}
+
+.footer-top .logo {
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 38px;
+    color: #37447E;
+}
+
+.footer-top button {
+    background: #111B47;
+    border-radius: 2px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 109px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bottom .group ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+
+.footer-bottom .group ul li {
+    padding-right: 50px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #929ECC;
+}
+
+.footer-bottom .social ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+
+.footer-bottom .social ul li {
+    padding-left: 30px;
+}
